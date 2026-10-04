@@ -251,7 +251,7 @@
 
     //floating draggable button
     var fab = el("button", "fab");
-    fab.title = "Chess Cheat";
+    fab.title = "ZharelCheat";
     fab.appendChild(iconNode());
     fab.appendChild(el("span", "dot"));
     root.appendChild(fab);
@@ -260,7 +260,7 @@
     var panel = el("div", "panel");
     var head = el("div", "head");
     head.appendChild(iconNode());
-    head.appendChild(el("div", "title", "Chess Cheat<small>Stockfish assistant</small>"));
+    head.appendChild(el("div", "title", "ZharelCheat<small>Stockfish assistant</small>"));
     var x = el("button", "x", "&times;");
     head.appendChild(x);
     panel.appendChild(head);
